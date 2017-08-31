@@ -14,8 +14,8 @@ sudo systemctl enable docker
 
 We have created a Docker container for this workshop, so we need to pull this from the docker repository and then run it in our machine:
 ```
-sudo docker pull rsesheffield/rse-conf-2017:1.0.0
-sudo docker run -p 65000:65000 -ti rsesheffield/rse-conf-2017:1.0.0 /bin/bash
+sudo docker pull rsesheffield/rse-conf-2017:1.0.1
+sudo docker run -p 65000:65000 -ti rsesheffield/rse-conf-2017:1.0.1 /bin/bash
 ```
 By now you should have a fully operational Docker container with all the libraries/dependencies needed for this workshop.
 
